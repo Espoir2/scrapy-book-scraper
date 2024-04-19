@@ -27,3 +27,4 @@ class BookspiderSpider(scrapy.Spider):
         else:
             print('There is no more page !')
 
+# Go for the next step
