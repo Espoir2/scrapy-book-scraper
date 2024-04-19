@@ -57,3 +57,5 @@ class BookspiderSpider(scrapy.Spider):
             'description' : response.xpath("//div[@id='product_description']/following-sibling::p/text()").get(),
             'price' : response.css('.price_color ::text').get(),
         }
+
+# Going to the next level
